@@ -22,7 +22,7 @@ PHP used : 7.4.6
   \Presentation
 \Templates
 ```
-For Infrastructure (Symfony) I will use the namespace ``Infra`` and keep using ``App`` for the core code. 
+For Infrastructure (Symfony) I will use the namespace ``Infra`` and keep using ``App`` for the business code. 
 ## Symfony modifications
 
  - Move ``src*/`` to ``src/Infrastructure``
@@ -93,7 +93,7 @@ For Infrastructure (Symfony) I will use the namespace ``Infra`` and keep using `
   ```
 ## What's next  ?
 
-New write your buisness code in ``src/Domain`` , ``src/Presentation`` or even others. I won't do a full presentation of DDD here. But you need to keep in mind that your buisness code should not be linked in any way to Symfony or any other librairies. 
+New write your buisness code in ``src/Domain`` , ``src/Presentation`` or even others. I won't do a full presentation of DDD here. But you need to keep in mind that your business code should not be linked in any way to Symfony or any other librairies. 
 
 Again this is not THE way to implement DDD in Symfony. If you want to improve this "tutorial" do not hesitate ! 
 
